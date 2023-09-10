@@ -1,0 +1,75 @@
+/* ## Colors
+
+### Primary
+
+- Orange: hsl(26, 100%, 55%)
+- Pale orange: hsl(25, 100%, 94%)
+
+### Neutral
+
+- Very vark blue: hsl(220, 13%, 13%)
+- Dark grayish blue: hsl(219, 9%, 45%)
+- Grayish blue: hsl(220, 14%, 75%)
+- Light grayish blue: hsl(223, 64%, 98%)
+- White: hsl(0, 0%, 100%)
+- Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700 */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --black: 0 0% 0%;
+  --orange: 26 100% 55%;
+  --pale-orange: 25 100% 94%;
+  --very-dark-blue: 220 13% 13%;
+  --dark-grayish-blue: 219 9% 45%;
+  --grayish-blue: 220 14% 75%;
+  --light-grayish-blue: 223 64% 98%;
+  --white: 0 0% 100%;
+
+  --divider: 219 35% 92%;
+}
+
+body {
+  position: relative;
+  box-sizing: inherit;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Splide override Styles */
+
+.splide__slide {
+  display: flex;
+  justify-content: center;
+}
+
+.splide img {
+  width: 100%;
+}
